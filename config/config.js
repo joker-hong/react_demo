@@ -25,7 +25,21 @@ export default {
             {
                 path: '/puzzlecards',
                 component: './Puzzlecards'
+            },
+            {
+                path: '/puzzlecardspage',
+                component: './PuzzlecardsPage'
+            },
+            {
+                path: '/puzzlecardsservice',
+                component: './PuzzleCardsService'
             }
         ]
-    }]
+    }],
+    // proxy: {
+    //     // '/dev': {
+    //     //     // target: 'https://08ad1pao69.execute-api.us-east-1.amazonaws.com',
+    //     //     // changeOrigin: true,
+    //     // },
+    // },
 }

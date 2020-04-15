@@ -33,6 +33,18 @@ export default class BasicLayout extends Component {
                         <span>puzzlecards</span>
                     </Link>
                 </Menu.Item>
+                <Menu.Item key="6">
+                    <Link to="/puzzlecardspage">
+                        <Icon type="pie-chart" />
+                        <span>puzzlecardspage</span>
+                    </Link>
+                </Menu.Item>
+                <Menu.Item key="7">
+                    <Link to="/puzzlecardsservice">
+                        <Icon type="pie-chart" />
+                        <span>puzzlecardsService</span>
+                    </Link>
+                </Menu.Item>
             </Menu>
         </Sider>
         <Layout >
