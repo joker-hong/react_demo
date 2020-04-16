@@ -33,6 +33,10 @@ export default {
             {
                 path: '/puzzlecardsservice',
                 component: './PuzzleCardsService'
+            },
+            {
+                path: '/list',
+                component: 'list'
             }
         ]
     }],

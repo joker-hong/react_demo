@@ -13,6 +13,7 @@ export default {
             },
         ],
         counter: 100,
+        auth: ["1", "2", "18", "20"]
     },
     reducers: {
         addNewCard(state, { payload: newCard }) {

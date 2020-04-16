@@ -45,6 +45,12 @@ export default class BasicLayout extends Component {
                         <span>puzzlecardsService</span>
                     </Link>
                 </Menu.Item>
+                <Menu.Item key="8">
+                    <Link to="/list">
+                        <Icon type="pie-chart" />
+                        <span>list</span>
+                    </Link>
+                </Menu.Item>
             </Menu>
         </Sider>
         <Layout >
